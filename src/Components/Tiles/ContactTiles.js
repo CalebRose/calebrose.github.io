@@ -8,7 +8,6 @@ var portfolioTile = props => {
       <ListGroup.Item>
         Email: <a href={"mailto:" + props.info.email}>{props.info.email}</a>
       </ListGroup.Item>
-      <ListGroup.Item>Phone: {props.info.phone}</ListGroup.Item>
       <ListGroup.Item>
         <a href={props.info.github}>Github</a>
       </ListGroup.Item>

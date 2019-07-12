@@ -5,7 +5,7 @@ var modalContent = {
       {
         id: 1,
         desc:
-          "I am a software developer based in Austin, Texas. I have previous experience in Quality Assurance, performing system integrated tests for web application UIs and building automation suites using frameworks such as Selenium and JUnit."
+          "I am a software engineer based in Austin, Texas. I have previous experience in Quality Assurance, performing system integrated tests for web application UIs and building automation suites using frameworks such as Selenium and JUnit."
       },
       {
         id: 2,
@@ -98,30 +98,6 @@ var modalContent = {
       },
       {
         id: 4,
-        project: "Word Match",
-        description: "(Keyboard Required)",
-        img: "/images/keyword.svg",
-        siteLink: "https://calebrose.github.io/hangman",
-        repoLink: "https://github.com/CalebRose/hangman"
-      },
-      {
-        id: 5,
-        project: "RPG",
-        description: "Turn Based Battle Simulation",
-        img: "/images/swordNshield.svg",
-        siteLink: "https://calebrose.github.io/battleSimulator/",
-        repoLink: "https://github.com/CalebRose/battleSimulator"
-      },
-      {
-        id: 6,
-        project: "Trivia",
-        description: "American West Edition",
-        img: "/images/exclamation-mark.svg",
-        siteLink: "https://calebrose.github.io/triviaGame/",
-        repoLink: "https://github.com/CalebRose/triviaGame"
-      },
-      {
-        id: 7,
         project: "MongoDB Homework",
         description: "COMING SOON",
         img: "/images/web-crawler.svg",
@@ -129,12 +105,12 @@ var modalContent = {
         repoLink: ""
       },
       {
-        id: 8,
-        project: "Friend Finder",
-        description: "Find your Digi-Pal Today!",
-        img: "/images/digivice.svg",
-        siteLink: "http://friendfinder-ctr.herokuapp.com",
-        repoLink: "https://github.com/CalebRose/friendFinder"
+        id: 5,
+        project: "For more,",
+        description: "visit my Github Profile",
+        img: "/images/more.svg",
+        siteLink: "https://github.com/CalebRose?tab=repositories",
+        repoLink: "https://github.com/CalebRose?tab=repositories"
       }
     ]
   },
@@ -142,8 +118,7 @@ var modalContent = {
     title: "Contact Me",
     content: {
       email: "calebrose.mobile@gmail.com",
-      resume: "",
-      phone: "(952) 334-8334",
+      resume: "/assets/CalebRoseResume.pdf",
       github: "https://www.github.com/CalebRose",
       linkedin: "https://www.linkedin.com/in/caleb-rose"
     }
