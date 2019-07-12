@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.00b86d0f.chunk.css",
-    "main.js": "/static/js/main.e4385e5c.chunk.js",
-    "main.js.map": "/static/js/main.e4385e5c.chunk.js.map",
+    "main.js": "/static/js/main.ee2b58ea.chunk.js",
+    "main.js.map": "/static/js/main.ee2b58ea.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.04a8c83d.chunk.js": "/static/js/2.04a8c83d.chunk.js",
     "static/js/2.04a8c83d.chunk.js.map": "/static/js/2.04a8c83d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2b7ff77a0dca7890c2568b013ffb4928.js": "/precache-manifest.2b7ff77a0dca7890c2568b013ffb4928.js",
+    "precache-manifest.a1f4d9decc944b9108c660dad4a00eda.js": "/precache-manifest.a1f4d9decc944b9108c660dad4a00eda.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.00b86d0f.chunk.css.map": "/static/css/main.00b86d0f.chunk.css.map",
     "static/media/main.css": "/static/media/barcade.e51b1da6.ttf"
