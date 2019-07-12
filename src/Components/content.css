@@ -1,0 +1,6 @@
+.allCards {
+  display: inline-flex;
+  float: left;
+  flex-wrap: wrap;
+  max-width: 500px;
+}
