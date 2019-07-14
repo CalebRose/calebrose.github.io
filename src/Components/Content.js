@@ -26,10 +26,14 @@ var Content = props => {
     return <div className="portfolios">{Portfolios}</div>;
   } else if (props.data.title === "Contact Me") {
     console.log(props.data);
-    const Info = props.data.content;
-    return (
+    const Info = props.data.content.map(item => (
       <div>
-        <ContactTiles info={Info} />
+        <ContactTiles key={item.id} info={item} />
+      </div>
+    ));
+    return (
+      <div className="contact allCards col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+        {Info}
       </div>
     );
   } else if (props.data.title === "About Me") {

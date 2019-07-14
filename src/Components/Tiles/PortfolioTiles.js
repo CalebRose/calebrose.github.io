@@ -21,35 +21,18 @@ var portfolioTile = props => {
         </Media.Body>
         <Media.Body className="links">
           <Row>
-            <a href={props.info.siteLink}>Site Link</a>
+            <a target="_blank" href={props.info.siteLink}>
+              Site Link
+            </a>
           </Row>
           <Row>
-            <a href={props.info.repoLink}>Repo Link</a>
+            <a target="_blank" href={props.info.repoLink}>
+              Repo Link
+            </a>
           </Row>
         </Media.Body>
       </Media>
     </ListGroup.Item>
-    // <Card className="portfolio-card" style={{ width: "27rem" }}>
-    //   <Row>
-    //     <Col md="4">
-    //       <Card.Img
-    //         variant="top"
-    //         className="svg-portfolio"
-    //         src={props.info.img}
-    //       />
-    //     </Col>
-    //     <Col md="8">
-    //       <Card.Body>
-    //         <Card.Title>{props.info.project}</Card.Title>
-    //         <Card.Text>{props.info.description}</Card.Text>
-    //       </Card.Body>
-    //       <Card.Body>
-    //         <Card.Link href={props.info.siteLink}>Site Link</Card.Link>
-    //         <Card.Link href={props.info.repoLink}>Repo Link</Card.Link>
-    //       </Card.Body>
-    //     </Col>
-    //   </Row>
-    // </Card>
   );
 };
 

@@ -10,12 +10,12 @@ var modalContent = {
       {
         id: 2,
         desc:
-          "In February 2019, I decided to challenge myself and partake in the University of Texas at Austin Full Stack Developer Bootcamp. I've been learning some of the latest technologies used for building websites, including React, Node.js, MongoDB, and Sequelizer."
+          "In February 2019, I decided to challenge myself and partake in the University of Texas at Austin Full Stack Developer Bootcamp. Through the program, I've learned how to build websites using the latest technologies, including React, Node.js, MongoDB, Express, and Sequelizer."
       },
       {
         id: 3,
         desc:
-          "I am currently looking for growth opportunities in either Frontend or Full-Stack roles. Feel free to look through my portfolio, or view my resume (found via Contact Me)!"
+          "I am open to hearing about opportunities. Please open the contact tab for the best way to contact me."
       }
     ]
   },
@@ -106,8 +106,8 @@ var modalContent = {
       },
       {
         id: 5,
-        project: "For more,",
-        description: "visit my Github Profile",
+        project: "For more...",
+        description: "Please visit my Github Profile",
         img: "/images/more.svg",
         siteLink: "https://github.com/CalebRose?tab=repositories",
         repoLink: "https://github.com/CalebRose?tab=repositories"
@@ -116,12 +116,28 @@ var modalContent = {
   },
   contact: {
     title: "Contact Me",
-    content: {
-      email: "calebrose.mobile@gmail.com",
-      resume: "/assets/CalebRoseResume.pdf",
-      github: "https://www.github.com/CalebRose",
-      linkedin: "https://www.linkedin.com/in/caleb-rose"
-    }
+    content: [
+      {
+        title: "Email",
+        url: "mailto:calebrose.mobile@gmail.com",
+        source: "/images/email.svg"
+      },
+      {
+        title: "Resume",
+        url: "/assets/CalebRoseResume.pdf",
+        source: "/images/resume.svg"
+      },
+      {
+        title: "Github",
+        url: "https://www.github.com/CalebRose",
+        source: "/images/github.svg"
+      },
+      {
+        title: "LinkedIn",
+        url: "https://www.linkedin.com/in/caleb-rose",
+        source: "/images/linkedin.svg"
+      }
+    ]
   }
 };
 
