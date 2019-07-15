@@ -21,12 +21,20 @@ var portfolioTile = props => {
         </Media.Body>
         <Media.Body className="links">
           <Row>
-            <a target="_blank" href={props.info.siteLink}>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={props.info.siteLink}
+            >
               Site Link
             </a>
           </Row>
           <Row>
-            <a target="_blank" href={props.info.repoLink}>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={props.info.repoLink}
+            >
               Repo Link
             </a>
           </Row>

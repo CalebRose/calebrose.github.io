@@ -93,7 +93,7 @@ var modalContent = {
         project: "Clickbait",
         description: "React-made Game",
         img: "/images/hook.svg",
-        siteLink: "",
+        siteLink: "https://calebrose.github.io/clickBaitGame",
         repoLink: "https://github.com/CalebRose/clickBaitGame"
       },
       {

@@ -12,7 +12,7 @@ var contactTile = props => {
       />
       <Card.Body>
         <Card.Title>
-          <a target="_blank" href={props.info.url}>
+          <a target="_blank" rel="noopener noreferrer" href={props.info.url}>
             {props.info.title}
           </a>
         </Card.Title>
