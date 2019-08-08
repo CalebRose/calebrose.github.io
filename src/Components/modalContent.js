@@ -124,7 +124,7 @@ var modalContent = {
       },
       {
         title: "Resume",
-        url: "/assets/CalebRoseResume.pdf",
+        url: "/assets/Caleb_Rose_Resume.pdf",
         source: "/images/resume.svg"
       },
       {
