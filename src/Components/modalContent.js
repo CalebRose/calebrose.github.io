@@ -5,12 +5,12 @@ var modalContent = {
       {
         id: 1,
         desc:
-          "I am a software engineer based in Austin, Texas. I have previous experience in Quality Assurance, performing system integrated tests for web application UIs and building automation suites using frameworks such as Selenium and JUnit."
+          "I am a software engineer based in Austin, Texas. I have 4 years of professional experience providing QA automation and and app development for a global manufacturer."
       },
       {
         id: 2,
         desc:
-          "In February 2019, I decided to challenge myself and partake in the University of Texas at Austin Full Stack Developer Bootcamp. Through the program, I've learned how to build websites using the latest technologies, including React, Node.js, MongoDB, Express, and Sequelizer."
+          "I am hard-working, self-motivated and passionate when it comes to developing websites. I think it's important, especially today, that web applications have to be accessible from any device and be able to perform efficiently."
       },
       {
         id: 3,
@@ -74,11 +74,11 @@ var modalContent = {
     content: [
       {
         id: 1,
-        project: "Pathfinder",
-        description: "Finding the best route for you",
-        img: "/images/map.svg",
-        siteLink: "https://the-warp-zone.github.io/pathfinderApp/",
-        repoLink: "https://github.com/CalebRose/pathfinderApp"
+        project: "Work Order Wizard",
+        description: "Doing the Magic for You",
+        img: "/images/wizard-hat.svg",
+        siteLink: "https://workorderwizard.herokuapp.com",
+        repoLink: "https://github.com/the-warp-zone/WorkOrderWizard"
       },
       {
         id: 2,
@@ -98,11 +98,11 @@ var modalContent = {
       },
       {
         id: 4,
-        project: "MongoDB Homework",
-        description: "COMING SOON",
-        img: "/images/web-crawler.svg",
-        siteLink: "",
-        repoLink: ""
+        project: "Pathfinder",
+        description: "Finding the best route for you",
+        img: "/images/map.svg",
+        siteLink: "https://the-warp-zone.github.io/pathfinderApp/",
+        repoLink: "https://github.com/CalebRose/pathfinderApp"
       },
       {
         id: 5,
