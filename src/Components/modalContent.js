@@ -5,17 +5,17 @@ var modalContent = {
       {
         id: 1,
         desc:
-          "I am a software engineer based in Austin, Texas. I have 4 years of professional experience providing QA automation and and app development for a global manufacturer."
+          "Caleb Rose is a software engineer based in Austin, Texas. He has 4 years of professional experience providing QA automation and and app development for a global manufacturer."
       },
       {
         id: 2,
         desc:
-          "I am hard-working, self-motivated and passionate when it comes to developing websites. I think it's important, especially today, that web applications have to be accessible from any device and be able to perform efficiently."
+          "Caleb is hard-working, self-motivated and passionate when it comes to developing websites. He believes it is important that web applications be robust and accessible from any device."
       },
       {
         id: 3,
         desc:
-          "I am open to hearing about opportunities. Please open the contact tab for the best way to contact me."
+          "For all inquiries and opportunities, please open the contact tab for the best way to contact Caleb."
       }
     ]
   },

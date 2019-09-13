@@ -93,7 +93,7 @@ class Main extends React.Component {
             </Col>
             <Col>
               <div className="options" onClick={this.handleShow}>
-                <p id="Contact">Contact Me</p>
+                <p id="Contact">Contact</p>
               </div>
             </Col>
           </Row>
