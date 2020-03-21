@@ -5,7 +5,7 @@ var modalContent = {
       {
         id: 1,
         desc:
-          'Caleb Rose is a software engineer based in Austin, Texas. He has 5 years of professional experience providing app development and automation for a global manufacturer.'
+          'Caleb Rose is a software engineer based in Austin, Texas. He has 5 years of professional experience providing app development and automation.'
       },
       {
         id: 2,
