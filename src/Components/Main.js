@@ -12,30 +12,30 @@ class Main extends React.Component {
   state = {
     show: false,
     title: '',
-    content: ''
+    content: '',
   };
-  handleShow = event => {
+  handleShow = (event) => {
     this.setState({ show: true });
     if (event.target.id === 'about') {
       this.setState({
         title: ModalContent.about.title,
-        content: ModalContent.about.content
+        content: ModalContent.about.content,
       });
     } else if (event.target.id === 'Tech Stack') {
       this.setState({
         title: ModalContent.tech.title,
-        content: ModalContent.tech.content
+        content: ModalContent.tech.content,
       });
     } else if (event.target.id === 'Portfolio') {
       this.setState({
         title: ModalContent.portfolio.title,
-        content: ModalContent.portfolio.content
+        content: ModalContent.portfolio.content,
       });
     } else if (event.target.id === 'Contact') {
       console.log(event.target);
       this.setState({
         title: ModalContent.contact.title,
-        content: ModalContent.contact.content
+        content: ModalContent.contact.content,
       });
     }
   };
@@ -89,6 +89,13 @@ class Main extends React.Component {
             <Col>
               <div className='options' onClick={this.handleShow}>
                 <p id='Tech Stack'>Tech Stack</p>
+              </div>
+            </Col>
+            <Col>
+              <div className='options'>
+                <a href='https://calebrose.io/blog/' id='blog'>
+                  Blog
+                </a>
               </div>
             </Col>
             <Col>
