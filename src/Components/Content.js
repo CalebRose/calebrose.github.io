@@ -6,10 +6,9 @@ import AboutDesc from "./Tiles/AboutDesc";
 import ListGroup from "react-bootstrap/ListGroup";
 import "./content.css";
 
-var Content = props => {
-  console.log(props.data);
+var Content = (props) => {
   if (props.data.title === "Tech Stack") {
-    const TechTiles = props.data.content.map(item => (
+    const TechTiles = props.data.content.map((item) => (
       <TileCard key={item.id} info={item} />
     ));
     return (
@@ -18,7 +17,7 @@ var Content = props => {
       </div>
     );
   } else if (props.data.title === "Portfolio") {
-    const Portfolios = props.data.content.map(item => (
+    const Portfolios = props.data.content.map((item) => (
       <ListGroup>
         <PortfolioTiles key={item.id} info={item} />
       </ListGroup>
@@ -26,7 +25,7 @@ var Content = props => {
     return <div className="portfolios">{Portfolios}</div>;
   } else if (props.data.title === "Contact Me") {
     console.log(props.data);
-    const Info = props.data.content.map(item => (
+    const Info = props.data.content.map((item) => (
       <div>
         <ContactTiles key={item.id} info={item} />
       </div>
@@ -39,7 +38,7 @@ var Content = props => {
   } else if (props.data.title === "About Me") {
     console.log(props.data.content);
 
-    const AboutMe = props.data.content.map(para => (
+    const AboutMe = props.data.content.map((para) => (
       <div>
         <AboutDesc key={para.id} info={para} />
       </div>
