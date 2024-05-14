@@ -36,8 +36,6 @@ var Content = (props) => {
       </div>
     );
   } else if (props.data.title === "About Me") {
-    console.log(props.data.content);
-
     const AboutMe = props.data.content.map((para) => (
       <div>
         <AboutDesc key={para.id} info={para} />

@@ -4,7 +4,7 @@ var modalContent = {
     content: [
       {
         id: 1,
-        desc: "Caleb Rose is a software engineer based in Seattle, Washington. He has 8 years of professional experience providing web app development and automation.",
+        desc: "Caleb Rose is a software engineer based in Seattle, Washington. He has 8+ years of professional experience building web apps for multinational corporations in the United States.",
       },
       {
         id: 2,
@@ -12,8 +12,8 @@ var modalContent = {
       },
       {
         id: 3,
-        desc: "Caleb is no longer open to inquiries at this time, but you are welcome to checking out his portfolio.",
-        //'For all inquiries and opportunities, please open the contact tab for the best way to contact Caleb.'
+        // desc: "Caleb is no longer open to inquiries at this time, but you are welcome to checking out his portfolio.",
+        desc: "For all inquiries and opportunities, please open the contact tab for the best way to contact Caleb.",
       },
     ],
   },
@@ -81,8 +81,7 @@ var modalContent = {
       {
         id: 2,
         project: "SimFBA Football API",
-        description:
-          "API handling College Football and NFL Leagues for SimFBA Community",
+        description: "Golang API handling SimCFB and SimNFL Leagues",
         img: "/images/football.svg",
         siteLink: "https://simfba-interface.azurewebsites.net/#/",
         repoLink: "https://github.com/CalebRose/SimFBA",
@@ -90,8 +89,15 @@ var modalContent = {
       {
         id: 3,
         project: "SimFBA Basketball API",
-        description:
-          "API handling College Basketball and (soon) NBA Leagues for SimFBA Community",
+        description: "Golang API handling SimCBB and SimNBA Leagues",
+        img: "/images/basketball.svg",
+        siteLink: "https://simfba-interface.azurewebsites.net/#/",
+        repoLink: "https://github.com/CalebRose/SimNBA",
+      },
+      {
+        id: 4,
+        project: "SimBBA Basketball Engine",
+        description: "The Simulation Engine for running basketball games",
         img: "/images/basketball.svg",
         siteLink: "https://simfba-interface.azurewebsites.net/#/",
         repoLink: "https://github.com/CalebRose/SimNBA",
