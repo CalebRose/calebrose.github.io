@@ -99,8 +99,8 @@ var modalContent = {
         project: "SimBBA Basketball Engine",
         description: "The Simulation Engine for running basketball games",
         img: "/images/basketball.svg",
-        siteLink: "https://simfba-interface.azurewebsites.net/#/",
-        repoLink: "https://github.com/CalebRose/SimNBA",
+        siteLink: "",
+        repoLink: "https://github.com/CalebRose/SimBBAv3",
       },
       {
         id: 5,
